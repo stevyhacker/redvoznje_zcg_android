@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        applicationId "me.zeljeznica.redvoznje"
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile files('libs/sqliteassethelper-2.0.1.jar')
+    compile files('libs/merge-1.0.1.jar')
+    compile files('libs/sacklist-1.0.0.jar')
+}

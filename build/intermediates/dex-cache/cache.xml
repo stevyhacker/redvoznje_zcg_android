@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/pre-dexed/debug/classes-9bd6e71da1025111118ae27d5a45a10966ca7ee9.jar"
+        jar="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-d51451903a90e87c99fbea3c57e5bb32356d4ac7.jar"
+        jar="/home/stevyhacker/Development/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1-f3fb7ec7e0cf0e559dc691c48c7ff6a737eab520.jar"
+        jar="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/libs/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f"/>
+    <item
+        dex="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/pre-dexed/debug/sacklist-1.0.0-f42eb0cc7310850d5f65bd1989bec62642822859.jar"
+        jar="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/libs/sacklist-1.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="45e23b1be84d70669cb82777543b7f8590374a35"/>
+    <item
+        dex="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/pre-dexed/debug/merge-1.0.1-25dd9cec2c595236900e2200f8ff66a8328a36dd.jar"
+        jar="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/libs/merge-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b7de1f909f68e8e256ebf92bbba5865962d73f17"/>
+
+</pre-dex-items>

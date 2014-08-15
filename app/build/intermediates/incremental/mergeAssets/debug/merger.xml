@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0-rc1" >
+        <source path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/src/main/assets" >
+            <file
+                name="databases/northwind.zip"
+                path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/src/main/assets/databases/northwind.zip" />
+            <file
+                name="databases/vozovi.zip"
+                path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/src/main/assets/databases/vozovi.zip" />
+            <file
+                name="databases/firefox.zip"
+                path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/src/main/assets/databases/firefox.zip" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/stevyhacker/AndroidStudioProjects/RedVoznje/app/src/debug/assets" />
+    </dataSet>
+
+</merger>
