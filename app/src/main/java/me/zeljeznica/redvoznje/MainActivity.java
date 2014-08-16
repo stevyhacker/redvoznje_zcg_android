@@ -15,10 +15,6 @@ import android.widget.Spinner;
 public class MainActivity extends Activity implements OnItemSelectedListener {
 
 	private Cursor cursor;
-
-	// private Cursor niksic;
-	// private Cursor bijelopolje;
-	// private Cursor podgorica;
 	private ListView listview;
 	private ListView listview2;
 	private MyDatabase db;
@@ -76,7 +72,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 
 	@Override
 	public void onNothingSelected(AdapterView<?> arg0) {
-		// TODO Auto-generated method stub
 
 	}
 
