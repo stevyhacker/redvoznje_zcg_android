@@ -25,7 +25,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         //Neophodan je _id u SELECT
         
       //  String [] sqlSelect = {"0 _id", "FirstName", "LastName"}; 
-        String [] sqlSelect = {"_id", "polazakiz", "vrijemepolaska"};  //GREŠKA U BAZI TREBALO BI DA PIŠE polazakza
+        String [] sqlSelect = {"_id", "polazakiz", "vrijemepolaska"};  //GREï¿½KA U BAZI TREBALO BI DA PIï¿½E polazakza
 
 //        String sqlTables = "Employees";
         String sqlTables="bar";
@@ -38,7 +38,7 @@ public class MyDatabase extends SQLiteAssetHelper {
         return c;
 
 }
-    
+    //TODO Ubaciti neki java TrainItem class i napraviti njegovu getter metodu koristeÄ‡i postojeÄ‡e konstruktore, onda srediti da se ne prikazuju dva list viewa
     public Cursor getNiksic() {
         SQLiteDatabase db = getReadableDatabase();
         SQLiteQueryBuilder qb = new SQLiteQueryBuilder();

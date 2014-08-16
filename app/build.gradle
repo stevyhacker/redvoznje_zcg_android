@@ -21,6 +21,4 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:19.+'
     compile files('libs/sqliteassethelper-2.0.1.jar')
-    compile files('libs/merge-1.0.1.jar')
-    compile files('libs/sacklist-1.0.0.jar')
 }
