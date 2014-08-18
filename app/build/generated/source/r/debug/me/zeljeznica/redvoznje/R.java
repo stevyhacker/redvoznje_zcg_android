@@ -944,12 +944,13 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080015;
         public static final int action_menu_presenter=0x7f080016;
         public static final int action_mode_close_button=0x7f080024;
-        public static final int action_settings=0x7f080044;
+        public static final int action_settings=0x7f080045;
         public static final int activity_chooser_view_content=0x7f080025;
         public static final int activity_main_linear_layout=0x7f08003c;
         public static final int always=0x7f08000f;
         public static final int beginning=0x7f08000a;
         public static final int checkbox=0x7f08002d;
+        public static final int city_text_view=0x7f080043;
         public static final int collapseActionView=0x7f080011;
         public static final int default_activity_button=0x7f080028;
         public static final int dialog=0x7f080012;
@@ -965,8 +966,6 @@ containing a value of this type.
         public static final int ifRoom=0x7f08000e;
         public static final int image=0x7f080027;
         public static final int listMode=0x7f080001;
-        public static final int listView1=0x7f080042;
-        public static final int listView2=0x7f080041;
         public static final int list_item=0x7f080029;
         public static final int middle=0x7f08000b;
         public static final int never=0x7f08000d;
@@ -996,9 +995,11 @@ containing a value of this type.
         public static final int tabMode=0x7f080002;
         public static final int textView1=0x7f08003d;
         public static final int textView2=0x7f08003f;
-        public static final int textView3=0x7f080043;
+        public static final int textView3=0x7f080042;
+        public static final int time_text_view=0x7f080044;
         public static final int title=0x7f08002b;
         public static final int top_action_bar=0x7f080020;
+        public static final int trainListView=0x7f080041;
         public static final int up=0x7f080021;
         public static final int useLogo=0x7f080003;
         public static final int withText=0x7f080010;
@@ -1033,6 +1034,7 @@ containing a value of this type.
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
         public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int train_item_layout=0x7f03001a;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;

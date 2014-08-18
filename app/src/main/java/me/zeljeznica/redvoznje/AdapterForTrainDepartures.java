@@ -18,26 +18,25 @@ public class AdapterForTrainDepartures extends ArrayAdapter<TrainItem> {
     private ArrayList<TrainItem> values;
 
     public AdapterForTrainDepartures(Context context, ArrayList<TrainItem> values) {
-        super(context,R.layout.train_item_layout, values);
+        super(context, R.layout.train_item_layout, values);
         this.values = values;
         this.context = context;
     }
 
     @Override
-    public int getCount()
-    {
+    public int getCount() {
         return values.size();
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
-    {
+    public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
         View view = inflater.inflate(R.layout.train_item_layout, parent, false);
 
         TrainItem item = values.get(position);
 
+        //TODO OPTIMIZE WITH STATIC VIEW HOLDER AND COMPARE PERFORMANCE
         TextView cityTextView = (TextView) view.findViewById(R.id.city_text_view);
         TextView timeOfDepartureTextView = (TextView) view.findViewById(R.id.time_text_view);
 
