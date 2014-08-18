@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:paddingLeft="10dp"
+        android:padding="5dp"
         android:layout_marginTop="20dp"
         android:text="Izaberi grad polaska: "
         android:textSize="16sp" />
@@ -31,51 +31,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/textView1"
-        android:paddingLeft="10dp"
-        android:paddingTop="5dp"
+        android:padding="5dp"
         android:text="Red vožnje važi do 13. decembra 2014"
         android:textSize="16sp" />
 
-    
-<!--     <ScrollView -->
-<!--         android:id="@+id/scroler"  -->
-<!--         android:layout_width="match_parent" -->
-<!--         android:layout_height="match_parent" -->
-<!--         android:layout_below="@id/textView2"> -->
+
         
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/relativelistlayout"
       android:layout_below="@id/textView2"   >
-        
-    <ListView
-        android:id="@+id/listView2"
-        android:layout_width="170dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:paddingTop="10dp" >
-    </ListView>
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/trainListView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        
-        android:layout_toLeftOf="@id/listView2"
         android:paddingTop="10dp" >
     </ListView>
       <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        android:layout_below="@id/listView1"
+        android:padding="10dp"
+        android:layout_below="@id/trainListView"
         android:text="Više informacija na http://www.zcg-prevoz.me/" />
     </RelativeLayout>
-
   
-<!-- </ScrollView> -->
 </RelativeLayout>
